@@ -76,7 +76,7 @@ img {
 @media screen and (max-width: 420px) {
   /* generali */
   body {
-    font-size: 175%;
+    font-size: 12px;
   }
   h1{
     margin-top: 0;
@@ -85,8 +85,12 @@ img {
     margin: 0;
   }
   .row {
+    width: 400px;
     margin-top: 0;
     padding: 20px;
+  }
+  .row img {
+    height: 100px;
   }
   /* Lezioni */
   .container:nth-child(odd) .row {
@@ -97,7 +101,7 @@ img {
     width: 100%;
   }
   .left, .central {
-    margin-bottom: 40px;
+    margin-bottom: 20px;
   }
   /* steps e why */
   .container.grey {
@@ -110,7 +114,7 @@ img {
   margin-top: 0;
   } 
   #why .row img {
-    padding: 60px;
-    height: 140px;
+    height: 50px;
+    padding: 25px;
   }
 }
